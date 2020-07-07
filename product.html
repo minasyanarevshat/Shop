@@ -7,17 +7,13 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <style type="text/css">
-      .shop-bg{
-        background-color: #F7F7F7;
-      }
-    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 
-    <title>Computers</title>
+    <title>Hello, world!</title>
   </head>
   <body>
 
-<!-- header -->
+    <!-- header -->
     <div class="container-fluid">
       <div class="row bg-dark d-flex align-items-center p-2">
         <div class="col-md-3 text-light d-none d-md-block">(+374)**-**-**</div>
@@ -77,26 +73,26 @@
             <div class="col-md-3">
               <div class="dropdown">
                 <button class="btn dropdown-toggle text-light" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                SmartPhons
+                Computers
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="#">Smartphones</a>
-                  <a class="dropdown-item" href="#">Chargs</a>
-                  <a class="dropdown-item" href="#">Cases</a>
-                  <a class="dropdown-item" href="#">Airpods</a>
+                  <a class="dropdown-item" href="shop.html">Notebooks</a>
+                  <a class="dropdown-item" href="#">Computers</a>
+                  <a class="dropdown-item" href="#">Bags</a>
+                  <a class="dropdown-item" href="#">Cameras</a>
                 </div>
               </div>
             </div>
         <div class="col-md-3">
           <div class="dropdown">
             <button class="btn dropdown-toggle text-light" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Computers
+              Smartphones
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#">Notebooks</a>
-              <a class="dropdown-item" href="#">Computers</a>
-              <a class="dropdown-item" href="#">Bags</a>
-              <a class="dropdown-item" href="#">Cameras</a>
+              <a class="dropdown-item" href="#">Smartphones</a>
+              <a class="dropdown-item" href="#">Chargs</a>
+              <a class="dropdown-item" href="#">Cases</a>
+              <a class="dropdown-item" href="#">Airpods</a>
             </div>
           </div>
         </div>
@@ -131,328 +127,215 @@
     </div>
 
 
-<!-- main -->
-  <div class="container-fluid mt-3">
-    <div class="row bg-dark d-flex align-items-center">
-      <div class="col-md-8 pt-3">
-        <nav aria-label="breadcrumb">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="#">Computers</a></li>
-            <li class="breadcrumb-item"><a href="#">Laptops</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Gameing Laptops</li>
-          </ol>
-        </nav>
-      </div>
-      <div class="col-md-4 pb-3 pt-3">
-        <form class="form-inline col-12">
-          <label for="sortBy" class="mr-2 text-light">Sort By</label>
-          <select class="custom-select d-block bg-dark text-light">
-            <option>Price: Low to high</option>
-            <option>Price: High to low</option>
-            <option>Date: New to old</option>
-          </select>
-        </form>
-      </div>
-    </div>
 
-  <div class="row mt-3 shop-bg">
-    <div class="d-none d-md-block col-md-3">
-      <div class="accordion" id="accordionExample">
-       <div class="card">
-         <div class="card-header" id="brand">
-           <h2 class="mb-0">
-             <button class="btn btn-link btn-block text-left text-decoration-none text-dark" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-               Select Brand
-             </button>
-           </h2>
-         </div>
-
-         <div id="collapseOne" class="collapse" aria-labelledby="brand" data-parent="#accordionExample">
-           <div class="card-body border-bottom">
-             <a class="text-decoration-none text-dark" href="#">Dell</a>
-           </div>
-           <div class="card-body border-bottom">
-             <a class="text-decoration-none text-dark" href="#">Apple</a>
-           </div>
-           <div class="card-body border-bottom">
-             <a class="text-decoration-none text-dark" href="#">Lenovo</a>
-           </div>
-         </div>
-       </div>
-
-       <div class="card">
-        <div class="card-header" id="headingTwo">
-          <h2 class="mb-0">
-            <button class="btn btn-link btn-block text-left collapsed text-decoration-none text-dark" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              Number of CPU Cores
-            </button>
-          </h2>
+    <!-- main -->
+    <div class="container-fluid mt-3">
+      <div class="row bg-dark d-flex align-items-center">
+        <div class="col-md-8 pt-3">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Computers</a></li>
+              <li class="breadcrumb-item"><a href="#">Laptops</a></li>
+              <li class="breadcrumb-item"><a href="#">Gameing Laptops</a></li>
+              <li class="breadcrumb-item active" aria-current="page">ASUS VivoBook 15</li>
+            </ol>
+          </nav>
         </div>
-
-        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-          <div class="card-body border-bottom">
-            <a class="text-decoration-none text-dark" href="#">Single Core</a>
-          </div>
-          <div class="card-body border-bottom">
-            <a class="text-decoration-none text-dark" href="#">Dual Core</a>
-          </div>
-          <div class="card-body border-bottom">
-            <a class="text-decoration-none text-dark" href="#">Quard Core</a>
-          </div>
+        <div class="col-md-4 pb-3 pt-3">
+          <form class="form-inline col-12">
+            <label for="sortBy" class="mr-2 text-light">Sort By</label>
+            <select class="custom-select d-block bg-dark text-light">
+              <option>Price: Low to high</option>
+              <option>Price: High to low</option>
+              <option>Date: New to old</option>
+            </select>
+          </form>
         </div>
       </div>
 
-      <div class="card">
-        <div class="card-header" id="headingThree">
-          <h2 class="mb-0">
-            <button class="btn btn-link btn-block text-left collapsed text-decoration-none text-dark" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              Computer Graphics Processor
-            </button>
-          </h2>
-        </div>
-
-        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-          <div class="card-body border-bottom">
-            <a class="text-decoration-none text-dark" href="#">Intel HD Graphics</a>
-          </div>
-          <div class="card-body border-bottom">
-            <a class="text-decoration-none text-dark" href="#">Intel Iris Plus Graphics</a>
-          </div>
-          <div class="card-body border-bottom">
-            <a class="text-decoration-none text-dark" href="#">Intel UHD Graphics</a>
-          </div>
-        </div>
+      <div class="row mt-3">
+        <div class="text-title text-primary"><h1>ASUS VivoBook 15</h1></div>
       </div>
 
-      <div class="card">
-         <div class="card-header" id="headingFour">
-           <h2 class="mb-0">
-             <button class="btn btn-link btn-block text-left text-decoration-none text-dark" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseFour">
-               Select Brand
-             </button>
-           </h2>
-         </div>
-
-         <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-           <div class="card-body border-bottom">
-             <a class="text-decoration-none text-dark" href="#">Dell</a>
-           </div>
-           <div class="card-body border-bottom">
-             <a class="text-decoration-none text-dark" href="#">Apple</a>
-           </div>
-           <div class="card-body border-bottom">
-             <a class="text-decoration-none text-dark" href="#">Lenovo</a>
-           </div>
-         </div>
-       </div>
-
-       <div class="card">
-        <div class="card-header" id="headingFive">
-          <h2 class="mb-0">
-            <button class="btn btn-link btn-block text-left collapsed text-decoration-none text-dark" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-              Number of CPU Cores
-            </button>
-          </h2>
-        </div>
-
-        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
-          <div class="card-body border-bottom">
-            <a class="text-decoration-none text-dark" href="#">Single Core</a>
-          </div>
-          <div class="card-body border-bottom">
-            <a class="text-decoration-none text-dark" href="#">Dual Core</a>
-          </div>
-          <div class="card-body border-bottom">
-            <a class="text-decoration-none text-dark" href="#">Quard Core</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-header" id="headingSix">
-          <h2 class="mb-0">
-            <button class="btn btn-link btn-block text-left collapsed text-decoration-none text-dark" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-              Computer Graphics Processor
-            </button>
-          </h2>
-        </div>
-
-        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
-          <div class="card-body border-bottom">
-            <a class="text-decoration-none text-dark" href="#">Intel HD Graphics</a>
-          </div>
-          <div class="card-body border-bottom">
-            <a class="text-decoration-none text-dark" href="#">Intel Iris Plus Graphics</a>
-          </div>
-          <div class="card-body border-bottom">
-            <a class="text-decoration-none text-dark" href="#">Intel UHD Graphics</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="custom-control custom-switch">
-        <input type="checkbox" class="custom-control-input" id="customSwitch1">
-        <label class="custom-control-label" for="customSwitch1">With Images Only</label>
-      </div>
-      <div class="custom-control custom-switch">
-        <input type="checkbox" class="custom-control-input" id="customSwitch2">
-        <label class="custom-control-label" for="customSwitch2">Free Shipping</label>
-      </div>
-    </div>
-  </div>
-
-    <div class="col-md-9">
-      <div class="card mb-3 col-12" style="width:100%;">
-        <div class="row no-gutters">
-          <div class="col-md-4">
-            <a href="product.html">
-              <img src="img/notebook.jpg" class="card-img pt-4 pl-1" alt="...">
-            </a>
-          </div>
-          <div class="col-md-6">
-            <div class="card-body">
-              <h4 class="card-title text-center"><a class="text-decoration-none text-danger" href="product.html">ASUS VivoBook 15</a></h4>
-              <div class="card-text d-none d-lg-block">
-                <ul>
-                  <li>Powerful AMD Quad Core r5-3500u Processor</li>
-                  <li>14.1 inch wide, 0.7 inch thin and portable footprint with a Nano Edge bezel for a stunning 88% screen-to-body ratio</li>
-                  <li>Ergonomic backlit chiclet keyboard with fingerprint reader</li>
-                </ul>
-              </div>
-              <div class="align-self-center d-block d-lg-none">
-                <div class="col-12">
-                  <h1 class="text-center">500$</h1>
-                </div>
-                <div class="col-12">
-                  <button type="button" class="btn btn-primary container-fluid">Add To Card</button>
-                </div>
-              </div>
+      <div class="row mt-3">
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-2">
+              <a class="border d-inline-block m-1 p-1" data-fancybox="gallery" href="img/product1.jpg"><img src="img/product1.jpg" class="img-fluid"></a>
+              <a class="border d-inline-block m-1 p-1" data-fancybox="gallery" href="img/product2.jpeg"><img src="img/product2.jpeg" class="img-fluid"></a>
+              <a class="border d-inline-block m-1 p-1" data-fancybox="gallery" href="img/product3.jpg"><img src="img/product3.jpg" class="img-fluid"></a>
+              <a class="border d-inline-block m-1 p-1" data-fancybox="gallery" href="img/product4.jpeg"><img src="img/product4.jpeg" class="img-fluid"></a>
+            </div>
+            <div class="col-10">
+              <a data-fancybox="gallery" href="img/notebook.jpg"><img src="img/notebook.jpg" class="img-fluid"></a>
             </div>
           </div>
-          <div class="col-md-2 align-self-center d-none d-lg-block">
-            <div class="col-12">
-              <h1 class="text-center">500$</h1>
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-12 text-title"><h3>$500</h3></div>
+            <div class="col-4">
+              <div class="input-group input-group-sm">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">Quantity</span>
+                </div>
+                <input type="text" class="form-control fix-rounded-right" required>
+              </div>
             </div>
-            <div class="col-12">
+            <div class="col-8">
               <button type="button" class="btn btn-primary">Add To Card</button>
             </div>
           </div>
-        </div>
-      </div>
-
-      <div class="card mb-3 col-12" style="width:100%;">
-        <div class="row no-gutters">
-          <div class="col-md-4">
-            <img src="img/notebook.jpg" class="card-img pt-4 pl-1" alt="...">
-          </div>
-          <div class="col-md-6">
-            <div class="card-body">
-              <h4 class="card-title text-center"><a class="text-decoration-none text-danger" href="#">ASUS VivoBook 15</a></h4>
-              <div class="card-text d-none d-lg-block">
-                <ul>
-                  <li>Powerful AMD Quad Core r5-3500u Processor</li>
-                  <li>14.1 inch wide, 0.7 inch thin and portable footprint with a Nano Edge bezel for a stunning 88% screen-to-body ratio</li>
-                  <li>Ergonomic backlit chiclet keyboard with fingerprint reader</li>
-                </ul>
-              </div>
-              <div class="align-self-center d-block d-lg-none">
-                <div class="col-12">
-                  <h1 class="text-center">500$</h1>
-                </div>
-                <div class="col-12">
-                  <button type="button" class="btn btn-primary container-fluid">Add To Card</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-2 align-self-center d-none d-lg-block">
+          <div class="row mt-3">
             <div class="col-12">
-              <h1 class="text-center">500$</h1>
+              <h6 class="text-title">Options</h6>
             </div>
             <div class="col-12">
-              <button type="button" class="btn btn-primary">Add To Card</button>
+              <div class="row">
+                <div class="custom-control custom-switch ml-3">
+                  <input type="checkbox" class="custom-control-input" id="mouse">
+                  <label class="custom-control-label" for="mouse">Mouse</label>
+                </div>
+                <div class="custom-control custom-switch ml-3">
+                  <input type="checkbox" class="custom-control-input" id="earphones">
+                  <label class="custom-control-label" for="earphones">Earphones</label>
+                </div>
+                <div class="custom-control custom-switch ml-3">
+                  <input type="checkbox" class="custom-control-input" id="case">
+                  <label class="custom-control-label" for="case">Case</label>
+                </div>
+              </div>  
             </div>
           </div>
-        </div>
-      </div>
-
-      <div class="card mb-3 col-12" style="width:100%;">
-        <div class="row no-gutters">
-          <div class="col-md-4">
-            <img src="img/notebook.jpg" class="card-img pt-4 pl-1" alt="...">
-          </div>
-          <div class="col-md-6">
-            <div class="card-body">
-              <h4 class="card-title text-center"><a class="text-decoration-none text-danger" href="#">ASUS VivoBook 15</a></h4>
-              <div class="card-text d-none d-lg-block">
-                <ul>
-                  <li>Powerful AMD Quad Core r5-3500u Processor</li>
-                  <li>14.1 inch wide, 0.7 inch thin and portable footprint with a Nano Edge bezel for a stunning 88% screen-to-body ratio</li>
-                  <li>Ergonomic backlit chiclet keyboard with fingerprint reader</li>
-                </ul>
-              </div>
-              <div class="align-self-center d-block d-lg-none">
-                <div class="col-12">
-                  <h1 class="text-center">500$</h1>
-                </div>
-                <div class="col-12">
-                  <button type="button" class="btn btn-primary container-fluid">Add To Card</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-2 align-self-center d-none d-lg-block">
+          <div class="row mt-3">
             <div class="col-12">
-              <h1 class="text-center">500$</h1>
+              <h6 class="text-title">Color</h6>
             </div>
             <div class="col-12">
-              <button type="button" class="btn btn-primary">Add To Card</button>
+              <div class="row">
+                <div class="custom-control custom-radio custom-control-inline ml-3">
+                  <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                  <label class="custom-control-label" for="customRadioInline1">Slate Grey</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline ml-3">
+                  <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                  <label class="custom-control-label" for="customRadioInline2">Black</label>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="card mb-3 col-12" style="width:100%;">
-        <div class="row no-gutters">
-          <div class="col-md-4">
-            <img src="img/notebook.jpg" class="card-img pt-4 pl-1" alt="...">
+      <div class="row mt-5 ml-3">
+        <div class="accordion" id="accordionExample">
+          <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
+            Overview
+          </a>
+          <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample1">Rating</a>
+        <div class="collapse" id="collapseExample1" data-parent="#accordionExample">
+          <div class="card card-body">
+            <h3>Properties</h3>
+            <ul>
+              <li>Powerful AMD Quad Core r5-3500u Processor</li>
+              <li>14.1 inch wide, 0.7 inch thin and portable footprint with a Nano Edge bezel for a stunning 88% screen-to-body ratio</li>
+              <li>Ergonomic backlit chiclet keyboard with fingerprint reader</li>
+            </ul>
+            Whether at work or play, ASUS VivoBook 15 is the compact laptop that immerses you in whatever you set out to do. Its new frameless four-sided NanoEdge display boasts an ultraslim 5.7mm bezel, giving an amazing 88% screen-to-body ratio for supremely immersive visuals. The ErgoLift hinge design also tilts the keyboard up for more comfortable typing. VivoBook 15 is powered by up to AMD Ryzen 5 processor with discrete AMD Radeon graphics to help you get things done with the least amount of fuss. What’s more, it’s available in four unique finishes to suit your style in different colors: Slate Gray, Transparent Silver, Coral Crush and Peacock Blue.
           </div>
-          <div class="col-md-6">
-            <div class="card-body">
-              <h4 class="card-title text-center"><a class="text-decoration-none text-danger" href="#">ASUS VivoBook 15</a></h4>
-              <div class="card-text d-none d-lg-block">
-                <ul>
-                  <li>Powerful AMD Quad Core r5-3500u Processor</li>
-                  <li>14.1 inch wide, 0.7 inch thin and portable footprint with a Nano Edge bezel for a stunning 88% screen-to-body ratio</li>
-                  <li>Ergonomic backlit chiclet keyboard with fingerprint reader</li>
-                </ul>
-              </div>
-              <div class="align-self-center d-block d-lg-none">
-                <div class="col-12">
-                  <h1 class="text-center">500$</h1>
-                </div>
-                <div class="col-12">
-                  <button type="button" class="btn btn-primary container-fluid">Add To Card</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-2 align-self-center d-none d-lg-block">
-            <div class="col-12">
-              <h1 class="text-center">500$</h1>
-            </div>
-            <div class="col-12">
-              <button type="button" class="btn btn-primary">Add To Card</button>
+        </div>
+        <div class="collapse" id="collapseExample2" data-parent="#accordionExample" style="width: 100%;">
+          <div class="card card-body">
+            <h3>Product progress</h3>
+            <div class="progress">
+              <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
+
+    <div class="row mt-3">
+      <div class="col-12">
+        <h3 class="text-center">You may also like</h3>
+      </div>
+    </div>
+
+    <div class="row d-flex justify-content-center">
+      <div class="col-6 col-md-4 col-lg mt-3 d-flex justify-content-center">
+        <div class="card" style="width: 15rem;">
+          <img src="img/notebook.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">ASUS VivoBook 15</h5>
+            <h3 class="text-center text-danger">$500</h3>
+            <a href="#"><button type="button" class="btn btn-primary container-fluid">Viev Detals</button></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg mt-3 d-flex justify-content-center">
+        <div class="card" style="width: 15rem;">
+          <img src="img/notebook.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">ASUS VivoBook 15</h5>
+            <h3 class="text-center text-danger">$500</h3>
+            <a href="#"><button type="button" class="btn btn-primary container-fluid">Viev Detals</button></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg mt-3 d-flex justify-content-center">
+        <div class="card" style="width: 15rem;">
+          <img src="img/notebook.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">ASUS VivoBook 15</h5>
+            <h3 class="text-center text-danger">$500</h3>
+            <a href="#"><button type="button" class="btn btn-primary container-fluid">Viev Detals</button></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg mt-3 d-flex justify-content-center">
+        <div class="card" style="width: 15rem;">
+          <img src="img/notebook.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">ASUS VivoBook 15</h5>
+            <h3 class="text-center text-danger">$500</h3>
+            <a href="#"><button type="button" class="btn btn-primary container-fluid">Viev Detals</button></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg mt-3 d-flex justify-content-center">
+        <div class="card" style="width: 15rem;">
+          <img src="img/notebook.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">ASUS VivoBook 15</h5>
+            <h3 class="text-center text-danger">$500</h3>
+            <a href="#"><button type="button" class="btn btn-primary container-fluid">Viev Detals</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-3 d-flex justify-content-center">
+      <nav class="d-flex justify-content-center" aria-label="Page navigation example">
+      <ul class="pagination">
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+          </a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    </div>
 
 
-  <!-- footer -->
+    <!-- footer -->
     <div class="container-fluid bg-dark">
     <div class="row text-center text-light text-uppercase ">
       <div class="col-12 col-md">
@@ -531,21 +414,7 @@
   </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- Modal login -->
+  <!-- Modal login -->
       <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
@@ -655,10 +524,24 @@
 
 
 
+
+    
+
+
+
+
+
+
+
+
+
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
   </body>
 </html>
